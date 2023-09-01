@@ -31,8 +31,20 @@ function Projects() {
               tap. Stay informed, effortlessly. Try now for an immersive news
               journey that brings the world to your fingertips. Download and
               review the future of news consumption today"
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              ghLink="https://github.com/vickyvikas514/NEWSaMania"
+              demoLink="https://drive.google.com/drive/folders/1nXVYc18uqLDSRRXckiCyzZVW3V7_gAWC?usp=drive_link"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              /*imgPath={leaf}*/
+              isBlog={false}
+              title="DevByte"
+              description="This Android application showcases its functionality exclusively on
+              Android devices. Introducing our app, DevByte your ultimate companion for organized access to Google Developers' channel content. DevByte curates playlists from Google Developers, delivering their insightful videos in a structured, easy-to-navigate manner. Whether you're a seasoned developer or a beginner, you can explore topics efficiently, enhancing your learning experience."
+              ghLink="https://github.com/vickyvikas514/DevBytes-app-"
+              demoLink="https://drive.google.com/drive/folders/1uq57gIFLgkKIrHM72kAbTa2s6nxa74bT?usp=drive_link"
             />
           </Col>
 
@@ -46,8 +58,19 @@ function Projects() {
               encyclopedia of words commencing with that letter. A simple tap
               directs users to corresponding web searches. Experience and
               evaluate the app's unique functionality."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              ghLink="https://github.com/vickyvikas514/word_game"
+              demoLink="https://drive.google.com/drive/folders/1BQ2mIysGmRaVEn38OYU4WSNnzFu-8uzA?usp=drive_link"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              /*imgPath={leaf}*/
+              isBlog={false}
+              title="Sportinfo"
+              description="This application necessitates an Android device for a firsthand experience.Introducing our Sports Info App, a user-friendly layout representation of the Slide Pane design. Seamlessly explore a diverse list of sports with just a tap. By selecting a specific sport, you unlock a full detailed description.,"
+              ghLink="https://github.com/vickyvikas514/Sporting"
+              demoLink="https://drive.google.com/drive/folders/10bqFdq0SN1MEr0abwFd2RVFrwHOkWCpv?usp=drive_link"
             />
           </Col>
 
@@ -56,35 +79,13 @@ function Projects() {
               /*imgPath={editor}*/
               isBlog={false}
               title="Jumbly"
-              description="This application necessitates an Android device for a firsthand
-              experience. It offers an organized and visually pleasing compendium
-              of diverse words, currently presented in a scrambled format. Your
-              objective is to unscramble these words, enhancing your score in the
-              process. Progressing through words updates your score, and you can
-              gauge your performance at the end. Scores dynamically adjust as you
-              solve or skip words, with an option to view correct answers. Feel free
-              to explore."
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              description="This application necessitates an Android device for a firsthand experience. It offers an organized and visually pleasing compendium of diverse words, currently presented in a scrambled format. Your objective is to unscramble these words, enhancing your score in the process. Progressing through words updates your score, and you can gauge your performance at the end. Scores dynamically adjust as you solve or skip words, with an option to view correct answers. Feel free to explore."
+              ghLink="https://github.com/vickyvikas514/Unscramble-the-words"
+              demoLink="https://drive.google.com/drive/folders/1l7kOcYEIXCVStKSI8zB5WDLKNHB_ESTs?usp=drive_link"              
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              /*imgPath={leaf}*/
-              isBlog={false}
-              title="Your Inventory"
-              description="This Android application showcases its functionality exclusively on
-              Android devices. Serving as an inventory management tool, it enables
-              users to seamlessly update their temporary in-app inventory by
-              adding or removing items. Users can effortlessly augment their
-              inventory with item details like pricing and stock levels. The app
-              incorporates an internal database accessible through SQL, facilitating
-              developer-controlled modifications."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
+         
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -94,8 +95,8 @@ function Projects() {
               description="I successfully debuted in utilizing Flutter and Dart by creating a
               multiplatform word library app. Users can save liked words in your
               library."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              ghLink="https://github.com/vickyvikas514/First-Flutter-Project"
+               demoLink="https://www.linkedin.com/posts/vickyvikas514_it-was-a-great-learning-experience-for-me-activity-7027161542458585088-ZM5S?utm_source=share&utm_medium=member_desktop" 
             />
           </Col>
 

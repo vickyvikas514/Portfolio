@@ -13,7 +13,7 @@ function AboutCard() {
             <br /> I am a pre-final year student pursuing an Bachelor of Technology (B.Tech)
             in Electronics and Telecommunication at HBTU Kanpur.
             <br />
-            Additionally, I am the Android Lead at GDSC HBTU Kanpur.
+            Additionally, I am the Android Lead at GDSC HBTU Kanpur and uses Leetcode to improve my problem solving skills.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
