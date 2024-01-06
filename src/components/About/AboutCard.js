@@ -10,10 +10,10 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">VIKAS CHAUDHARY </span>
             from <span className="purple"> GHAZIABAD, India.</span>
-            <br /> I am a pre-final year student pursuing an Bachelor of Technology (B.Tech)
+            <br /> I am a pre-final year student pursuing Bachelor of Technology
             in Electronics and Telecommunication at HBTU Kanpur.
             <br />
-            Additionally, I am the Android Lead at GDSC HBTU Kanpur and uses Leetcode to improve my problem solving skills.
+            Additionally, I am the Android Lead at GDSC, HBTU Kanpur. Reached the final round of SIH'23 and uses various coding platforms to improve my problem solving skills.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
