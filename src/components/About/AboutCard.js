@@ -9,14 +9,14 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">VIKAS CHAUDHARY </span>
-            from <span className="purple"> GHAZIABAD, India.</span>
+            from  GHAZIABAD, India.
             <br /> I am a pre-final year student pursuing Bachelor of Technology
-            in Electronics and Telecommunication at HBTU Kanpur.
+            in <span className="purple">Electronics and Telecommunication </span> at HBTU Kanpur.
             <br />
-            Additionally, I am the Android Lead at GDSC, HBTU Kanpur. Reached the final round of SIH'23 and uses various coding platforms to improve my problem solving skills.
+            Additionally, I am the <span className="purple"> Android Lead at GDSC </span>, HBTU Kanpur. Reached the final round of <span className="purple"> SIH'23 </span> and uses various coding platforms to improve my problem solving skills.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from Tech, some other activities that I love to do!
           </p>
           <ul>
           <li className="about-activity">
