@@ -16,6 +16,30 @@ function AboutCard() {
             Additionally, I am the <span className="purple"> Android Lead at GDSC </span>, HBTU Kanpur. Reached the final round of <span className="purple"> SIH'23 </span> and uses various coding platforms to improve my problem solving skills.
             <br />
             <br />
+            Some of my accomplishments are
+          </p>
+          <ul>
+          <li className="about-activity">
+              <ImPointRight /> SIH, 23 FINALIST
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Android lead | Google Developer Student Club
+            </li>
+            <li className="about-activity">
+              <ImPointRight />  BuildForBharat | Hackathon | ONDC
+           </li>
+           <li className="about-activity">
+              <ImPointRight /> Winner | Venture Championship | E-CELL HBTU, Kanpur
+            </li>
+            <li className="about-activity">
+               <ImPointRight /> Organizer, Hactober Fest at our university
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Intern | Approids
+            </li>
+          </ul>
+
+          <p style={{ textAlign: "justify" }}>
             Apart from Tech, some other activities that I love to do!
           </p>
           <ul>
