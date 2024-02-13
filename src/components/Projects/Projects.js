@@ -55,6 +55,36 @@ function Projects() {
             <ProjectCard
               /*imgPath={chatify}*/
               isBlog={false}
+              title="Service Founder"
+              description={
+                <ul>
+                    <li>
+                    Participated in <span className="purple">BuildForBharat Hackathon</span>, a dynamic and collaborative event 
+focused on innovative solutions for optimizing the database for merchant and 
+customers in terms of pin code.
+                </li>
+                <li>
+                Contributed to the development of a cutting-edge solution that leverages a 
+                <span className="purple">sophisticated algorithm to seamlessly connect an Android mobile app with a 
+Firebase database</span>. Successfully validated the solution through rigorous testing, 
+ensuring robustness and efficiency.
+                </li>
+                <li>
+                Demonstrated the comprehensive platform's capabilities in a live presentation, 
+highlighting <span className="purple">seamless integration, user authentication, and real-time data 
+retrieval</span>. This experience showcased adaptability, problem-solving skills, and a 
+collaborative approach in a fast-paced and competitive coding environment.
+                </li>
+                </ul>
+              }
+              ghLink="https://github.com/vickyvikas514/BuildForBharat"
+              demoLink="https://drive.google.com/drive/folders/1kbIzGjW_j5T5DX3plYsWrqyizlSeReEU?usp=sharing"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              /*imgPath={chatify}*/
+              isBlog={false}
               title="NEWSaMania"
               description={
                 <ul>
