@@ -3,70 +3,77 @@ import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
-  return (
-    <Card className="quote-card-view">
-      <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">VIKAS CHAUDHARY </span>
-            from  GHAZIABAD, India.
-            <br /> I am a pre-final year student pursuing Bachelor of Technology
-            in <span className="purple">Electronics and Telecommunication </span> at HBTU Kanpur.
-            <br />
-            Additionally, I am the <span className="purple"> Android Lead at GDSC </span>, HBTU Kanpur. Reached the final round of <span className="purple"> SIH'23 </span> and uses various coding platforms to improve my problem solving skills.
-            <br />
-            <br />
-            Some of my accomplishments are
-          </p>
-          <ul>
-          <li className="about-activity">
-              <ImPointRight /> SIH, 23 FINALIST
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Android lead | Google Developer Student Club
-            </li>
-            <li className="about-activity">
-              <ImPointRight />  BuildForBharat | Hackathon | ONDC
+ return (
+   <Card className="quote-card-view">
+     <Card.Body>
+       <blockquote className="blockquote mb-0">
+         <p style={{ textAlign: "justify" }}>
+           Hello there! I'm <span className="purple">Vikas Chaudhary</span>, an
+           Electronics and Telecommunication Engineering student from
+           Ghaziabad, India. Currently pursuing my Bachelor's degree at
+           Harcourt Butler Technical University, Kanpur, I have a keen passion
+           for telecommunications, embedded systems, and cutting-edge
+           technologies.
+           <br />
+           <br />
+           Throughout my academic journey, I've had the privilege of leading
+           and contributing to various projects and initiatives. As the{" "}
+           <span className="purple">Android Lead</span> at the Google Developer
+           Student Club (GDSC) at HBTU, I've been instrumental in fostering an
+           Android culture on campus and spearheading collaborative projects in
+           the domain.
+         </p>
+         <ul>
+             <li className="about-activity">
+             <ImPointRight /> Gained valuable experience through internships,
+             such as creating a user-specific Android app using Firebase, APIs,
+             and other technologies at <span className="purple">Approids</span>
+             .
            </li>
            <li className="about-activity">
-              <ImPointRight /> Winner | Venture Championship | E-CELL HBTU, Kanpur
-            </li>
-            <li className="about-activity">
-               <ImPointRight /> Organizer, Hactober Fest at our university
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Intern | Approids
-            </li>
-          </ul>
-
-          <p style={{ textAlign: "justify" }}>
-            Apart from Tech, some other activities that I love to do!
-          </p>
-          <ul>
-          <li className="about-activity">
-              <ImPointRight /> Digital Marketing
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Listning Music
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-
-
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Painting & Sketching
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Not to throw the towel till the result is there"{" "}
-          </p>
-          <footer className="blockquote-footer">M.S Dhoni</footer>
-        </blockquote>
-      </Card.Body>
-    </Card>
-  );
+             <ImPointRight /> Reached the grand finale of the prestigious{" "}
+             <span className="purple">Smart India Hackathon '23</span>, where I
+             led a team of six members from diverse backgrounds.
+           </li>
+           <li className="about-activity">
+             <ImPointRight /> Actively participated in hackathons like{" "}
+             <span className="purple">BuildForBharat</span>, organized by ONDC,
+             where I contributed to innovative solutions for optimizing
+             databases for merchants and customers.
+           </li>
+           <li className="about-activity">
+             <ImPointRight /> Organized events like{" "}
+             <span className="purple">Techathon and Hacktoberfest '23</span>,
+             promoting innovation and open-source culture within the tech
+             community.
+           </li>
+          
+         </ul>
+         <p style={{ textAlign: "justify" }}>
+           Alongside my technical pursuits, I'm passionate about
+         </p>
+         <ul>
+           <li className="about-activity">
+             <ImPointRight /> Digital Marketing
+           </li>
+           <li className="about-activity">
+             <ImPointRight /> Listening to Music
+           </li>
+           <li className="about-activity">
+             <ImPointRight /> Traveling
+           </li>
+           <li className="about-activity">
+             <ImPointRight /> Painting & Sketching
+           </li>
+         </ul>
+         <p style={{ color: "rgb(155 126 172)" }}>
+           "Not to throw the towel till the result is there"{" "}
+         </p>
+         <footer className="blockquote-footer">M.S Dhoni</footer>
+       </blockquote>
+     </Card.Body>
+   </Card>
+ );
 }
 
 export default AboutCard;
