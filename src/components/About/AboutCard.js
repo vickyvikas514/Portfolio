@@ -30,17 +30,20 @@ function AboutCard() {
              and other technologies at <span className="purple">Approids</span>
              .
            </li>
+            <div style={{ marginBottom: '1rem' }}>
            <li className="about-activity">
              <ImPointRight /> Reached the grand finale of the prestigious{" "}
              <span className="purple">Smart India Hackathon '23</span>, where I
              led a team of six members from diverse backgrounds.
            </li>
+              <div style={{ marginBottom: '1rem' }}>
            <li className="about-activity">
              <ImPointRight /> Actively participated in hackathons like{" "}
              <span className="purple">BuildForBharat</span>, organized by ONDC,
              where I contributed to innovative solutions for optimizing
              databases for merchants and customers.
            </li>
+              <div style={{ marginBottom: '1rem' }}>
            <li className="about-activity">
              <ImPointRight /> Organized events like{" "}
              <span className="purple">Techathon and Hacktoberfest '23</span>,
@@ -55,6 +58,9 @@ function AboutCard() {
          <ul>
            <li className="about-activity">
              <ImPointRight /> Digital Marketing
+           </li>
+            <li className="about-activity">
+             <ImPointRight /> Sales
            </li>
            <li className="about-activity">
              <ImPointRight /> Listening to Music
