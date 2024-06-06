@@ -21,6 +21,45 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="Digital Alarm Clock"
+              description={
+                <ul>
+                  <li>
+                    Engineered a customizable <span className="purple">digital alarm clock</span> using an 8086 microprocessor, showcasing its versatility in real-world applications.
+                  </li>
+                  <li>
+                    This project ranked among the <span className="purple">Top 5%</span> in the branch, demonstrating exceptional technical proficiency and problem-solving skills.
+                  </li>
+                </ul>
+              }
+              // Add your GitHub link and demo link if available
+              ghLink="https://drive.google.com/file/d/1hEvOTK5rn7e-CjbPeOUG-uJlfHSyZShA/view"
+              demoLink="https://drive.google.com/file/d/1hEvOTK5rn7e-CjbPeOUG-uJlfHSyZShA/view"
+            />
+          </Col>
+                
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              /*imgPath={editor}*/
+              isBlog={false}
+              title="IR Proximity Sensor"
+              description={<ul>
+                  <li>
+                    Developed an innovative <span className="purple">IR proximity sensor</span> leveraging advanced technology for precise motion detection.
+                  </li>
+                  <li>
+                    This project secured the <span className="purple">top rank</span> in the branch, showcasing exceptional technical proficiency and problem-solving skills.
+                  </li>
+                </ul>}
+              
+              ghLink="https://drive.google.com/file/d/1BauvqNTEkdpsAHz5590uLNKIP1OFXMAA/view?usp=drive_link"
+              demoLink="https://drive.google.com/file/d/1BauvqNTEkdpsAHz5590uLNKIP1OFXMAA/view?usp=drive_link"              
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               /*imgPath={chatify}*/
@@ -68,12 +107,6 @@ customers in terms of pin code.
                 <span className="purple">sophisticated algorithm to seamlessly connect an Android mobile app with a 
 Firebase database</span>. Successfully validated the solution through rigorous testing, 
 ensuring robustness and efficiency.
-                </li>
-                <li>
-                Demonstrated the comprehensive platform's capabilities in a live presentation, 
-highlighting <span className="purple">seamless integration, user authentication, and real-time data 
-retrieval</span>. This experience showcased adaptability, problem-solving skills, and a 
-collaborative approach in a fast-paced and competitive coding environment.
                 </li>
                 </ul>
               }
@@ -142,7 +175,7 @@ collaborative approach in a fast-paced and competitive coding environment.
               title="WordoPedia"
               description={<ul>
                 <li>
-                This application, optimized for Android phones, showcases an
+                This application, optimized for Android phones, showcases an 
                 <span className="purple">interactive alphabet-based interface</span>. Each alphabet section hosts an
               encyclopedia of words commencing with that letter.
             </li>
@@ -160,66 +193,7 @@ collaborative approach in a fast-paced and competitive coding environment.
               ghLink="https://github.com/vickyvikas514/word_game"
               demoLink="https://drive.google.com/drive/folders/1BQ2mIysGmRaVEn38OYU4WSNnzFu-8uzA?usp=drive_link"
             />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              /*imgPath={leaf}*/
-              isBlog={false}
-              title="Sportinfo"
-              description={<ul>
-                <li>
-                This application necessitates an Android device for a firsthand experience.Introducing our 
-              Sports Info App, a user-friendly layout representation
-               of the <span className="purple">Slide Pane design</span>.
-            </li>
-            <li>
-            Seamlessly explore a diverse 
-               list of sports with just a tap.
-            </li>
-            <li>
-            By selecting a specific sport, 
-               you unlock a full detailed description.
-            </li>
-            
-            </ul>}
-            
-              ghLink="https://github.com/vickyvikas514/Sporting"
-              demoLink="https://drive.google.com/drive/folders/10bqFdq0SN1MEr0abwFd2RVFrwHOkWCpv?usp=drive_link"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              /*imgPath={editor}*/
-              isBlog={false}
-              title="Jumbly"
-              description={<ul>
-                <li>
-                This application necessitates an Android device 
-              for a firsthand experience. It offers an organized and visually
-               pleasing compendium of diverse words, currently presented in a 
-               scrambled format
-            </li>
-            <li>
-            <span className="purple">Your objective is to unscramble these words</span>, 
-               enhancing your score in the process. Progressing through words 
-               <span className="purple">updates your score</span>, and you can gauge your performance at the end.
-            </li>
-            <li>
-            <span className="purple">Scores dynamically adjust</span> as you solve or skip words, with an option 
-               to view correct answers. Feel free to explore.
-            </li>
-           
-            </ul>}
-              
-              ghLink="https://github.com/vickyvikas514/Unscramble-the-words"
-              demoLink="https://drive.google.com/drive/folders/1l7kOcYEIXCVStKSI8zB5WDLKNHB_ESTs?usp=drive_link"              
-            />
-          </Col>
-
-         
-
+          </Col>      
           <Col md={4} className="project-card">
             <ProjectCard
               /*imgPath={suicide}*/

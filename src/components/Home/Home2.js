@@ -14,51 +14,30 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I worked in classics like
-              <i>
-                <b className="purple"> Kotlin, C++, C#, and Dart. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Android Technologies and Products in KOTLIN</b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  OpenSource, and Problem Solving.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Kotlin Compose</b> , 
-              <i>
-                <b className="purple">
-                  {" "}
-                  Flutter
-                </b>
-              </i>
-              &nbsp; and
-              <i>
-                <b className="purple"> Rest API</b>
-              </i>
-            </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
-        </Row>
-        <Row>
+  <Col md={8} className="home-about-description">
+    <h1 style={{ fontSize: "2.6em" }}>
+      LET ME <span className="purple"> INTRODUCE </span> MYSELF
+    </h1>
+    <p className="home-about-body">
+      As an Electronics and Telecommunication Engineering student, I have developed a profound passion for programming and cutting-edge technologies. I have honed my skills in programming languages such as <i><b className="purple">C++, Kotlin, C#, and Dart</b></i>, with a particular emphasis on <i><b className="purple">Android app development using Kotlin</b></i>.
+      <br />
+      <br />
+      My areas of interest span <i><b className="purple">building innovative Android technologies and products</b></i>, as well as delving into the realms of <i><b className="purple">open-source contributions and problem-solving</b></i>.
+      <br />
+      <br />
+      Whenever an opportunity arises, I eagerly apply my expertise in <b className="purple">Kotlin Compose</b>, <i><b className="purple">Flutter</b></i>, and <i><b className="purple">REST APIs</b></i> to craft exceptional products that push the boundaries of what's possible. I thrive on tackling complex challenges, leveraging my strong foundation in problem-solving and digital skill sets to deliver innovative solutions.
+      <br />
+      <br />
+      Alongside my technical pursuits, I actively contribute to the open-source community, fostering collaboration and knowledge-sharing. My goal is to continuously expand my horizons, stay updated with the latest advancements, and contribute to the ever-evolving technological landscape.
+    </p>
+  </Col>
+  <Col md={4} className="myAvtar">
+    <Tilt>
+      <img src={myImg} className="img-fluid" alt="avatar" />
+    </Tilt>
+  </Col>
+</Row>
+          <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
