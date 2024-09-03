@@ -8,51 +8,59 @@ function AboutCard() {
      <Card.Body>
        <blockquote className="blockquote mb-0">
          <p style={{ textAlign: "justify" }}>
-           Hello there! I'm <span className="purple">Vikas Chaudhary</span>, an
-           Electronics and Telecommunication Engineering student from
-           Ghaziabad, India. Currently pursuing my Bachelor's degree at
-           Harcourt Butler Technical University, Kanpur, I have a keen passion
-           for telecommunications, embedded systems, and cutting-edge
-           technologies.
+         I am <span className="purple">Vikas Chaudhary</span>, a passionate Engineer with a background in electronics engineering and a keen interest in Android development, firmware design, and system optimization.
+         <br />
+         <br />
+         My journey has led me to contribute to impactful projects at renowned organizations like 
+      <span className="purple"> ISRO</span>, where I developed firmware for atmospheric research instruments, <span className="purple"> ASF Insignia</span> where I supported daily operations through system monitoring and fault diagnosis, while collaborating with interdisciplinary teams toapply electronics engineering principles and 
+      <span className="purple"> Approids Technologies</span>, where I built robust Android applications utilizing real-time data synchronization and advanced backend integration.
            <br />
            <br />
-           Throughout my academic journey, I've had the privilege of leading
-           and contributing to various projects and initiatives. As the{" "}
-           <span className="purple">Android Lead</span> at the Google Developer
-           Student Club (GDSC) at HBTU, I've been instrumental in fostering an
-           Android culture on campus and spearheading collaborative projects in
-           the domain.
-         </p>
+           As a proactive leader, I have successfully guided teams to excel in national hackathons like the 
+      <span className="purple"> Smart India Hackathon</span>, driving innovative solutions in high-pressure environments. My technical proficiency spans across multiple programming languages and tools, including 
+      <span className="purple">  Kotlin, C++, Firebase</span>, and embedded systems, allowing me to tackle complex challenges with creativity and efficiency.
+         
+         <br />
+         <br/>
+        
+      Currently pursuing my <span className="purple">Bachelor of Technology in Electronics</span> from 
+      <span className="purple">Harcourt Butler Technical University</span>, I am committed to continuous learning and applying my skills to develop scalable, user-centric software solutions. I am eager to explore new opportunities where I can make a significant impact through technology and innovation.
+    </p>
+    <h3>Past Experience</h3>
          <ul>
              <li className="about-activity">
-             <ImPointRight /> Gained valuable experience through internships,
-             such as creating a user-specific Android app using Firebase, APIs,
-             and other technologies at <span className="purple">Approids</span>
-             .
-            
+             <ImPointRight /> Project Intern at ISRO, VSSC, SPL.  
            </li>
             
            <li className="about-activity">
-             <ImPointRight /> Reached the grand finale of the prestigious{" "}
-             <span className="purple">Smart India Hackathon '23</span>, where I
-             led a team of six members from diverse backgrounds.
-              
+             <ImPointRight /> Intern at Approids Technologies.    
            </li>
               
            <li className="about-activity">
-             <ImPointRight /> Actively participated in hackathons like{" "}
-             <span className="purple">BuildForBharat</span>, organized by ONDC,
-             where I contributed to innovative solutions for optimizing
-             databases for merchants and customers.
-              
+             <ImPointRight /> Intern at ASF Insignia.
            </li>
               
            <li className="about-activity">
-             <ImPointRight /> Organized events like{" "}
-             <span className="purple">Techathon and Hacktoberfest '23</span>,
-             promoting innovation and open-source culture within the tech
-             community.
+             <ImPointRight /> Team Lead for Smart India Hackathon '23, GOI.    
+           </li>
+          
+         </ul>
+         <h3>Extracurriculars</h3>
+         <ul>
+             <li className="about-activity">
+             <ImPointRight /> Android Lead at GDSC.  
+           </li>
+            
+           <li className="about-activity">
+             <ImPointRight /> Event Organizer for Techathon and Hacktoberfest '23.    
+           </li>
               
+           <li className="about-activity">
+             <ImPointRight /> Publicity Head at Association of Electronics Engineers (AETE).
+           </li>
+              
+           <li className="about-activity">
+             <ImPointRight /> Team Lead at Build For Bharat, ONDC    
            </li>
           
          </ul>
@@ -67,7 +75,7 @@ function AboutCard() {
              <ImPointRight /> Sales
            </li>
            <li className="about-activity">
-             <ImPointRight /> Listening to Music
+             <ImPointRight /> Music
            </li>
            <li className="about-activity">
              <ImPointRight /> Traveling

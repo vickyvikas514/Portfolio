@@ -21,45 +21,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-            <Col md={4} className="project-card">
-            <ProjectCard
-              isBlog={false}
-              title="Digital Alarm Clock"
-              description={
-                <ul>
-                  <li>
-                    Engineered a customizable <span className="purple">digital alarm clock</span> using an 8086 microprocessor, showcasing its versatility in real-world applications.
-                  </li>
-                  <li>
-                    This project ranked among the <span className="purple">Top 5%</span> in the branch, demonstrating exceptional technical proficiency and problem-solving skills.
-                  </li>
-                </ul>
-              }
-              // Add your GitHub link and demo link if available
-              ghLink="https://drive.google.com/file/d/1hEvOTK5rn7e-CjbPeOUG-uJlfHSyZShA/view"
-              demoLink="https://drive.google.com/file/d/1hEvOTK5rn7e-CjbPeOUG-uJlfHSyZShA/view"
-            />
-          </Col>
-                
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              /*imgPath={editor}*/
-              isBlog={false}
-              title="IR Proximity Sensor"
-              description={<ul>
-                  <li>
-                    Developed an innovative <span className="purple">IR proximity sensor</span> leveraging advanced technology for precise motion detection.
-                  </li>
-                  <li>
-                    This project secured the <span className="purple">top rank</span> in the branch, showcasing exceptional technical proficiency and problem-solving skills.
-                  </li>
-                </ul>}
-              
-              ghLink="https://drive.google.com/file/d/1BauvqNTEkdpsAHz5590uLNKIP1OFXMAA/view?usp=drive_link"
-              demoLink="https://drive.google.com/file/d/1BauvqNTEkdpsAHz5590uLNKIP1OFXMAA/view?usp=drive_link"              
-            />
-          </Col>
+            
         <Col md={4} className="project-card">
             <ProjectCard
               /*imgPath={chatify}*/
@@ -94,30 +56,6 @@ function Projects() {
             <ProjectCard
               /*imgPath={chatify}*/
               isBlog={false}
-              title="Service Founder"
-              description={
-                <ul>
-                    <li>
-                    Participated in <span className="purple">BuildForBharat Hackathon</span>, a dynamic and collaborative event 
-focused on innovative solutions for optimizing the database for merchant and 
-customers in terms of pin code.
-                </li>
-                <li>
-                Contributed to the development of a cutting-edge solution that leverages a 
-                <span className="purple">sophisticated algorithm to seamlessly connect an Android mobile app with a 
-Firebase database</span>. Successfully validated the solution through rigorous testing, 
-ensuring robustness and efficiency.
-                </li>
-                </ul>
-              }
-              ghLink="https://github.com/vickyvikas514/BuildForBharat"
-              demoLink="https://drive.google.com/drive/folders/1kbIzGjW_j5T5DX3plYsWrqyizlSeReEU?usp=sharing"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              /*imgPath={chatify}*/
-              isBlog={false}
               title="NEWSaMania"
               description={
                 <ul>
@@ -139,6 +77,68 @@ ensuring robustness and efficiency.
               demoLink="https://drive.google.com/drive/folders/1nXVYc18uqLDSRRXckiCyzZVW3V7_gAWC?usp=drive_link"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              /*imgPath={leaf}*/
+              isBlog={false}
+              title="Multi Channel Sun Photometer"
+              description={<ul>
+                <li>
+                Designed complex module systems integrating analog and digital circuits for <span className="purple">high altitude applications</span>, including microcontrollers, power supplies, and data acquisition systems.
+            </li>
+            <li>
+            Captured schematics, completed PCB layouts, and conducted prototype testing, enhancing accuracy for atmospheric studies and 
+            advancing meteorology and climate research.
+            </li>
+            
+          
+            </ul>}
+            
+              ghLink="https://drive.google.com/file/d/1FnSYSYnN3xyUHwn6npUYga7B-UT7hTeU/view?usp=sharing"
+              demoLink="https://drive.google.com/file/d/1FnSYSYnN3xyUHwn6npUYga7B-UT7hTeU/view?usp=sharing"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="Digital Alarm Clock"
+              description={
+                <ul>
+                  <li>
+                    Engineered a customizable <span className="purple">digital alarm clock</span> using an 8086 microprocessor, showcasing its versatility in real-world applications.
+                  </li>
+                  <li>
+                    This project ranked among the <span className="purple">Top 5%</span> in the branch, demonstrating exceptional technical proficiency and problem-solving skills.
+                  </li>
+                </ul>
+              }
+              // Add your GitHub link and demo link if available
+              ghLink="https://drive.google.com/file/d/1hEvOTK5rn7e-CjbPeOUG-uJlfHSyZShA/view"
+              demoLink="https://drive.google.com/file/d/1hEvOTK5rn7e-CjbPeOUG-uJlfHSyZShA/view"
+            />
+          </Col>
+                
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              /*imgPath={editor}*/
+              isBlog={false}
+              title="Home Automation"
+              description={<ul>
+                  <li>
+                    Developed an innovative <span className="purple">IR proximity sensor</span> leveraging advanced technology for precise motion detection.
+                  </li>
+                  <li>
+                    This project secured the <span className="purple">top rank</span> in the branch, showcasing exceptional technical proficiency and problem-solving skills.
+                  </li>
+                </ul>}
+              
+              ghLink="https://drive.google.com/file/d/1BauvqNTEkdpsAHz5590uLNKIP1OFXMAA/view?usp=drive_link"
+              demoLink="https://drive.google.com/file/d/1BauvqNTEkdpsAHz5590uLNKIP1OFXMAA/view?usp=drive_link"              
+            />
+          </Col>
+          
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -168,50 +168,7 @@ ensuring robustness and efficiency.
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              /*imgPath={bitsOfCode}*/
-              isBlog={false}
-              title="WordoPedia"
-              description={<ul>
-                <li>
-                This application, optimized for Android phones, showcases an 
-                <span className="purple">interactive alphabet-based interface</span>. Each alphabet section hosts an
-              encyclopedia of words commencing with that letter.
-            </li>
-            <li>
-            A simple tap
-              directs users to corresponding web searches.
-            </li>
-            <li>
-            Experience and
-              evaluate the app's unique functionality.
-            </li>
           
-            </ul>}
-              
-              ghLink="https://github.com/vickyvikas514/word_game"
-              demoLink="https://drive.google.com/drive/folders/1BQ2mIysGmRaVEn38OYU4WSNnzFu-8uzA?usp=drive_link"
-            />
-          </Col>      
-          <Col md={4} className="project-card">
-            <ProjectCard
-              /*imgPath={suicide}*/
-              isBlog={false}
-              title="WordXplore"
-              description={<ul>
-                <li>
-                I successfully debuted in utilizing <span className="purple">Flutter and Dart</span> by creating a
-              multiplatform word library app. Users can save liked words in your
-              library.
-            </li>
-            
-            </ul>}
-               
-              ghLink="https://github.com/vickyvikas514/First-Flutter-Project"
-               demoLink="https://www.linkedin.com/posts/vickyvikas514_it-was-a-great-learning-experience-for-me-activity-7027161542458585088-ZM5S?utm_source=share&utm_medium=member_desktop" 
-            />
-          </Col>
 
           
         </Row>

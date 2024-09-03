@@ -19,16 +19,24 @@ function Home2() {
       LET ME <span className="purple"> INTRODUCE </span> MYSELF
     </h1>
     <p className="home-about-body">
-      As an Electronics and Telecommunication Engineering student, I have developed a profound passion for programming and cutting-edge technologies. I have honed my skills in programming languages such as <i><b className="purple">C++, Kotlin, C#, and Dart</b></i>, with a particular emphasis on <i><b className="purple">Android app development using Kotlin</b></i>.
+    As an <i><b className="purple">Electronics Engineering</b></i> student with a strong foundation in programming, 
+    I specialize in Android development using <i><b className="purple"> Kotlin</b></i> and embedded systems design. 
+    <br/>
+    <br/>
+    I have experience working on impactful projects at <i><b className="purple">ISRO</b></i> and leading teams in 
+    national hackathons like the <i><b className="purple">Smart India Hackathon</b></i>, 
+    where I developed innovative solutions under high-pressure environments.
       <br />
       <br />
       My areas of interest span <i><b className="purple">building innovative Android technologies and products</b></i>, as well as delving into the realms of <i><b className="purple">open-source contributions and problem-solving</b></i>.
       <br />
       <br />
-      Whenever an opportunity arises, I eagerly apply my expertise in <b className="purple">Kotlin Compose</b>, <i><b className="purple">Flutter</b></i>, and <i><b className="purple">REST APIs</b></i> to craft exceptional products that push the boundaries of what's possible. I thrive on tackling complex challenges, leveraging my strong foundation in problem-solving and digital skill sets to deliver innovative solutions.
-      <br />
-      <br />
-      Alongside my technical pursuits, I actively contribute to the open-source community, fostering collaboration and knowledge-sharing. My goal is to continuously expand my horizons, stay updated with the latest advancements, and contribute to the ever-evolving technological landscape.
+
+      My skills include <i><b className="purple">C++, Kotlin, Firebase, and API integration</b></i>, 
+      with a passion for building scalable, user-centric applications. 
+      I am dedicated to continuous learning and actively contribute to 
+      the open-source community, aiming to stay at the forefront of 
+      technological advancements and drive innovation in software development.
     </p>
   </Col>
   <Col md={4} className="myAvtar">
