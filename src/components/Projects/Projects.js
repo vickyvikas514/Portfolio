@@ -26,7 +26,7 @@ function Projects() {
             <ProjectCard
               /*imgPath={chatify}*/
               isBlog={false}
-              title="KAMRE"
+              title="VasAlaya"
               description={
                 <ul>
                     <li>
